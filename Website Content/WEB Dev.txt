@@ -1,0 +1,97 @@
+Computer Club Website:
+
+
+
+					-:MNNIT Computer Club:-
+Did You know - (Quotes and Facts)
+Design a Logo - (Clickable and address to Home)
+
+
+
+-Compel a Login Page every time User visits the site.
+---------------------------
+Home page Tabs without Login:
+Home , Courses:-,Upcoming Classes, About Us,  FAQ's, Login/Signup
+( Drop Down (without click) -ML -Competitve Programing -Web development -Git) 
+********************
+Home Page will have posts(*posts can also be pinned by the admins*) 
+
+
+
+
+
+
+
+
+
+
+
+On Course Page:-
+Each Course- (Will Have all the Github Resources and Posts where this coarse is tagged)
+Side Bar Have - Most Recent Posts (Current Page) - Contains Posts Related to New Available Content, Assignments, Online Resources 
+	         Git Resources
+	         Upcoming Classes Schedule
+	         Suggestions
+----------------------------------------------------------------------------
+After Login - 
+Main Tabs will remain same except the Login/Signup will now be Name of the User( address to Profile/custom settings) 
+
+Side Bar- 
+Notifications:-(Current Page) i.e. will have Notifications of custom classes. ( Post 
+My Courses:-
+1.
+2.
+3.
+Upcoming Classes:- 
+
+
+
+
+
+***********************
+Right Side Bar-
+Popular Tags:
+Facebook page Like Link 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FOOTER:-
+All Rights Reserved!
