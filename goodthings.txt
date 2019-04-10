@@ -1,4 +1,0 @@
-Hello There I am here to be pulled by GIT on you system.I will be doing so by first goint to Remote via origin/master pipe and then to
-your Repository.
-From Here I am adding Some Changes from my local system.
-ADDING SOME MORE CHANGES TO SEE THE EFFECTS OF FETCH COMMAND.
