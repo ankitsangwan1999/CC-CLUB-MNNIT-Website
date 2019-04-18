@@ -1,0 +1,216 @@
+<div class="topnav">
+        <a class="active teal" href="#home">Home</a>
+
+
+        <div>
+            <!-- Dropdown Trigger-->
+            <ul id="dropdown" class="dropdown-content">
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">JAVA</a></li>
+            </ul>
+
+            <a class="dropdown-button" href="#" data-activates="dropdown">
+                Courses
+                <i class="mdi-navigation-arrow-drop-down right"></i>
+            </a>
+        </div>
+
+        <a href="#about">About</a>
+
+        <div>
+            <!-- Dropdown-->
+            <ul class="dropdown-content" id="dropdown1">
+                <li>
+                    <a href="#">Faculty</a>
+                </li>
+                <li>
+                    <a href="#">Mentors</a>
+                </li>
+            </ul>
+
+            <a href="#" class="dropdown-button" data-activates="dropdown1">
+                Contact
+                <i class="mdi-navigation-arrow-drop-down"></i>
+            </a>
+
+        </div>
+
+<!-- For Login -->
+
+        <div class="login-container">
+            
+            <table>
+                <tr>
+                    <td>
+                        <button onclick="document.getElementById('id01').style.display='block'" class="teal-text">Login</button>
+                    </td>
+                    <td>
+                        <button onclick="document.getElementById('id03').style.display='block'" class="teal-text">Admin</button>
+                    </td>
+                    <td>
+                        <button onclick="document.getElementById('id02').style.display='block'" class="white-text teal">Sign Up</button>
+                    </td>
+                </tr>
+            </table>
+         </div>   
+         
+        <div id="id01" class="modal" style="background-color:#0e7999">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="https://image.freepik.com/free-vector/female-exercise_82446-44.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" style="background-color:hotpink">Login</button>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw"><a href="#">Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- For Sign Up -->
+
+                
+
+        <div id="id02" class="modal" style="background-color:cadetblue">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="https://image.freepik.com/free-vector/looking-talent-background_23-2147988439.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="uname"><b>Confirm Username</b></label>
+                    <input type="text" placeholder="Confirm Username" name="uname" required />
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Confirm Password" name="psw" required />
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter your email" name="email" required />
+
+                    <label for="ph"><b>Contact No.</b></label>
+                    <input type="number" placeholder="Enter your mobile no." name="ph" required />
+
+                    <label for="dob"><b>D.O.B</b></label>
+                    <input type="date" placeholder="Enter your D.O.B" name="dob" required>
+
+                    <label for="college"><b>College/university</b></label>
+                    <input type="text" placeholder="Enter your College/University" name="college" required />
+
+
+
+                    <button type="submit" style="background-color:hotpink">Sign Up</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw"><a href="#">Forgot username?</a></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- For Admin login -->
+
+                
+
+        <div id="id03" class="modal" style="background-color:darkcyan">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="https://image.freepik.com/free-vector/man-look-graphic-chart-business-analytics-concept-big-data-processing-icon_39422-761.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Admin Username</b></label>
+                    <input type="text" placeholder="Enter Admin Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" style="background-color:hotpink">Admin Login</button>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw"><a href="#">Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+        </div>
+
+
+
+
+
+         <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">Speeds up development</h5>
+
+                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">User Experience Focused</h5>
+
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Easy to work with</h5>
+
+                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
