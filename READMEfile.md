@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# First-Github-repo.
-Adding Some Changes from local Repo.
-=======
-# CC-CLUB-MNNIT-Website
+CC-CLUB-MNNIT-Website
 Team: ENIGMA, Dev-Jam(WoC) 2019 Project 
->>>>>>> e8f7f7d472a44d325448b61e289947addc72dbea
+Project Name: CC CLUB MNNIT WEBSITE 
+Our Project won the Special Mention Prize i Dev-jam 2019.
+
